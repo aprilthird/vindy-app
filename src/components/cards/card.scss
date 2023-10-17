@@ -1,0 +1,84 @@
+ion-item.card-categories {
+	--color: #fff;
+	margin: 5px 0 5px 0;
+	--padding-top: 0px !important;
+	--padding-bottom: 0px !important;
+	--padding-start: 0px !important;
+	--padding-end: 0px !important;
+
+	--inner-padding-bottom: 0px !important;
+	--inner-padding-end: 0px !important;
+	--inner-padding-start: 0px !important;
+	--inner-padding-top: 0px !important;
+	--border-radius: 15px !important;
+}
+
+ion-item.orange {
+	--background: linear-gradient(65deg, #ff8815, #fdad15);
+}
+ion-item.blue {
+	--background: linear-gradient(65deg, #009ada, #00c1d9);
+}
+ion-item.purple {
+	--background: linear-gradient(65deg, #450a7a, #453c7e);
+}
+ion-item.nocolor {
+	--background: white;
+}
+
+.circle-one {
+	width: 170px;
+	height: 170px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: white;
+	-webkit-mask: radial-gradient(transparent 50px, #000 5px);
+	mask: radial-gradient(transparent 50px, #000 5px);
+	opacity: 0.2;
+}
+.circle-two {
+	width: 75px;
+	height: 75px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: white;
+	-webkit-mask: radial-gradient(transparent 10px, #000 5px);
+	mask: radial-gradient(transparent 10px, #000 5px);
+	opacity: 0.2;
+}
+.circle-three {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: white;
+	-webkit-mask: radial-gradient(transparent 18px, #000 5px);
+	mask: radial-gradient(transparent 18px, #000 5px);
+	opacity: 0.2;
+}
+
+.circle-five {
+	width: 75px;
+	height: 75px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: white;
+	-webkit-mask: radial-gradient(transparent 10px, #000 5px);
+	mask: radial-gradient(transparent 10px, #000 5px);
+	opacity: 0.2;
+}
+.circle-six {
+	width: 75px;
+	height: 75px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: white;
+	-webkit-mask: radial-gradient(transparent 13px, #000 5px);
+	mask: radial-gradient(transparent 13px, #000 5px);
+	opacity: 0.2;
+}

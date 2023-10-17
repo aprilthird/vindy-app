@@ -1,0 +1,88 @@
+.vindy-bg {
+	background-image: linear-gradient(
+		125deg,
+		hsl(272deg 85% 26%) 0%,
+		hsl(268deg 85% 27%) 21%,
+		hsl(264deg 86% 28%) 43%,
+		hsl(261deg 88% 28%) 61%,
+		hsl(258deg 88% 29%) 72%,
+		hsl(254deg 88% 30%) 80%,
+		hsl(251deg 90% 31%) 85%,
+		hsl(247deg 90% 32%) 89%,
+		hsl(243deg 90% 32%) 92%,
+		hsl(240deg 92% 33%) 94%,
+		hsl(237deg 92% 34%) 96%,
+		hsl(233deg 93% 35%) 97%,
+		hsl(229deg 93% 35%) 98%,
+		hsl(226deg 95% 36%) 99%,
+		hsl(222deg 95% 37%) 100%,
+		hsl(219deg 96% 38%) 100%,
+		hsl(215deg 96% 39%) 100%,
+		hsl(212deg 97% 40%) 100%,
+		hsl(208deg 98% 40%) 100%,
+		hsl(205deg 98% 41%) 100%,
+		hsl(201deg 99% 42%) 100%,
+		hsl(198deg 100% 43%) 100%
+	);
+}
+
+ion-content.login {
+	// --background: url("../../public/assets/img/custom_home_icons.svg") 0 0/100%
+	// 	100% no-repeat;
+	--background: transparent;
+}
+.vindy-icons-login {
+	background: url("../../public/assets/img/custom_home_icons.svg") 0 0/100% 100%
+		no-repeat;
+}
+
+.disabled_swiper_button {
+	opacity: 0;
+	cursor: auto;
+	pointer-events: none;
+}
+
+ion-content.auth {
+	--padding-bottom: 100px !important;
+}
+ion-content.services {
+	// --padding-bottom: 100px !important;
+}
+ion-content.profile {
+	--padding-top: 0;
+	--padding-end: 0;
+	--padding-start: 0;
+}
+
+ion-item {
+	--inner-padding-start: 0;
+	--inner-padding-top: 0;
+	--inner-padding-end: 0;
+	--inner-padding-bottom: 0;
+	--padding-start: 0;
+	--padding-top: 0;
+	--padding-end: 0;
+	--padding-bottom: 0;
+}
+
+ion-searchbar.searchbar-vindy {
+	--background: white;
+	--placeholder-color: #cbd5e1;
+}
+
+.custom-ripple-contained {
+	color: rgba(255, 255, 255, 0.546);
+}
+.custom-ripple-contained-back {
+	color: rgba(135, 132, 132, 0.546);
+}
+.custom-riple-outlined {
+	color: rgba(205, 128, 228, 0.686);
+}
+
+.md ion-content.map {
+	--background: transparent;
+}
+.md body.map {
+	background: transparent;
+}

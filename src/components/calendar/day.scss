@@ -1,0 +1,11 @@
+ion-toast.day-toast {
+	--background: #f4f4fa;
+	--color: #450a7a;
+	margin-bottom: 50px;
+	transform: translateY(-70px) !important;
+}
+
+ion-toast.day-toast::part(button) {
+	color: #450a7a;
+	font-size: 9px;
+}

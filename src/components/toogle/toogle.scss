@@ -1,0 +1,62 @@
+ion-segment {
+	// border: 10px solid #ff8815;
+	// --border-color: #ff8815;
+	padding: 0px;
+}
+
+/* Material Design styles */
+ion-segment-button.md {
+	--color: #000;
+	--indicator-height: 100px;
+	--border-radius: 20px;
+}
+
+/* iOS styles */
+ion-segment-button.ios {
+	--color: #08a391;
+	--border-radius: 20px;
+}
+ion-segment-button {
+	--border-width: 20px;
+	--padding-top: 7px;
+	--padding-bottom: 7px;
+	height: 25px;
+}
+
+ion-segment-button.segment-primary {
+	--color-checked: #f1f5f9;
+	--color: #ff8815;
+	//--background-checked: #ff8815;
+	--indicator-color: #ff8815;
+	--border-color: #450a7a;
+}
+ion-segment-button.segment-secundary {
+	--color-checked: #f1f5f9;
+	--color: #009ada;
+	// --background-checked: #009ada;
+	--indicator-color: #009ada;
+}
+ion-segment-button.segment-terciary {
+	--color-checked: #f1f5f9;
+	--color: #450a7a;
+	//--background-checked: #450a7a;
+	--indicator-color: #450a7a;
+}
+ion-segment-button.segment-brightpurple {
+	--color-checked: #f1f5f9;
+	--color: #7f6aff;
+	//--background-checked: #7F6AFF;
+	--indicator-color: #7f6aff;
+}
+ion-segment-button.segment-default {
+	--color-checked: #000;
+	--color: #f1f5f9;
+	//--background-checked: #f1f5f9;
+	--indicator-color: #f1f5f9;
+}
+ion-segment-button.segment-back {
+	--color-checked: #000;
+	--color: #f1f5f9;
+	//--background-checked: #f1f5f9;
+	--indicator-color: #f1f5f9;
+}
